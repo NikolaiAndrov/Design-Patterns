@@ -1,6 +1,7 @@
 ﻿namespace StatePattern
 {
     using StatePattern.Contracts;
+    using StatePattern.Enums;
 
     public class ModerationState : IState
     {
@@ -13,7 +14,10 @@
 
         public void Publish()
         {
-            throw new NotImplementedException();
+            if (this.document.UserRole == UserRoles.Admin)
+            {
+                this.document.State = new PublishedState(document);
+            }
         }
     }
 }

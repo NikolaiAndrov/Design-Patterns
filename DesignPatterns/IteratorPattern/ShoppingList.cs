@@ -49,7 +49,7 @@
 
             public bool HasNext()
             {
-                if (this.index < this.list.items.Count - 1)
+                if (this.index < this.list.items.Count)
                 {
                     return true;
                 }

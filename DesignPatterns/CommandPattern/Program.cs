@@ -4,7 +4,15 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Light light = new Light();
+            RemoteControl remoteControl = new RemoteControl(new TurnOnCommand(light));
+            remoteControl.PressButton();
+
+            remoteControl.SetCommand(new TurnOffCommand(light));
+            remoteControl.PressButton();
+
+            remoteControl.SetCommand(new DimCommand(light));
+            remoteControl.PressButton();
         }
     }
 }

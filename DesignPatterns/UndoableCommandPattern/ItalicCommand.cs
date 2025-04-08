@@ -23,7 +23,7 @@
 
         public void Unexecute()
         {
-            throw new NotImplementedException();
+            this.document.Content = this.prevContent;
         }
     }
 }

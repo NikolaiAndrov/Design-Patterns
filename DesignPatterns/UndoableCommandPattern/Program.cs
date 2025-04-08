@@ -4,8 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Stack<int> stack = new Stack<int>();
-            stack.Pop();
+            
         }
     }
 }

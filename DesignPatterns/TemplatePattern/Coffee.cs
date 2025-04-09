@@ -2,7 +2,7 @@
 {
     using Contracts;
 
-    public class Tea : IBeverage
+    public class Coffee : IBeverage
     {
         public void Prepare()
         {
@@ -12,20 +12,20 @@
 
         private void Brew()
         {
-            Console.WriteLine("Brewing tea for 3 minutes.");
+            Console.WriteLine("Brewing coffee for 3 minutes.");
         }
 
         private void AddCondiments()
         {
             if (AreCondimentsNeeded())
             {
-                Console.WriteLine("Adding lemon to the tea.");
+                Console.WriteLine("Adding milk to the coffee.");
             }
         }
 
         private bool AreCondimentsNeeded()
         {
-            Console.WriteLine("Would you like some lemon? (y/n)");
+            Console.WriteLine("Would you like some milk? (y/n)");
             string input = Console.ReadLine()!;
             return input.ToLower() == "y";
         }

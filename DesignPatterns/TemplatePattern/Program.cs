@@ -4,7 +4,14 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            BeverageMaker beverage = new BeverageMaker(new Tea());
+            beverage.MakeBeverage();
+
+            beverage.SetBeverage(new Coffee());
+            beverage.MakeBeverage();
+
+            beverage.SetBeverage(new Camomile());
+            beverage.MakeBeverage();
         }
     }
 }

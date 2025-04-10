@@ -4,7 +4,14 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Coffee coffee = new Coffee();
+            coffee.Prepare();
+
+            Tea tea = new Tea();
+            tea.Prepare();
+
+            Camomile camomile = new Camomile();
+            camomile.Prepare();
         }
     }
 }

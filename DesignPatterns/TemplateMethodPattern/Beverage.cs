@@ -6,6 +6,8 @@
         {
             this.BoilWater();
             this.PourInCup();
+            this.Brew();
+            this.AddCondiments();
         }
 
         private void BoilWater()

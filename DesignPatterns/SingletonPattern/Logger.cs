@@ -32,7 +32,7 @@
 
         public void Log(string message)
         {
-            this.logs.Add($"Date: {DateTime.Now} Message: {message}");
+            this.logs.Add($"Date: {DateTime.Now:dd.MM.yyyy HH:mm:ss}, Message: {message}");
         }
 
         public string GetLogs()

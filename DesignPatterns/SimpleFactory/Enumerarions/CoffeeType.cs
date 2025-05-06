@@ -5,6 +5,6 @@
         Espresso,
         Double,
         Macchiato,
-        Cappucino
+        Cappuccino
     }
 }

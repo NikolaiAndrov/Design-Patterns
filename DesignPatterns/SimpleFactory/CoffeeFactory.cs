@@ -27,7 +27,7 @@
             }
             else
             {
-                throw new ArgumentException();
+                throw new ArgumentException("Invalid coffee type!");
             }
 
             return coffee;

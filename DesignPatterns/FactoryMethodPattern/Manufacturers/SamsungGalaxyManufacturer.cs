@@ -1,6 +1,6 @@
 ﻿namespace FactoryMethodPattern.Manufacturers
 {
-    using FactoryMethodPattern.Products;
+    using Products;
 
     public class SamsungGalaxyManufacturer : Manufacturer
     {

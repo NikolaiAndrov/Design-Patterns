@@ -4,6 +4,11 @@ namespace FactoryMethodPattern.Products
 {
     public abstract class Gsm
     {
+        protected Gsm()
+        {
+            
+        }
+
         public string Name { get; set; } = string.Empty;
 
         public int BatteryCapacity { get; set; }
@@ -13,6 +18,8 @@ namespace FactoryMethodPattern.Products
         public int Height { get; set; }
 
         public int Width { get; set; }
+
+        public abstract void Start();
 
         public override string ToString()
         {

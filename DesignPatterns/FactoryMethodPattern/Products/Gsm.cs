@@ -1,7 +1,7 @@
-﻿using System.Text;
-
-namespace FactoryMethodPattern.Products
+﻿namespace FactoryMethodPattern.Products
 {
+    using System.Text;
+
     public abstract class Gsm
     {
         protected Gsm()

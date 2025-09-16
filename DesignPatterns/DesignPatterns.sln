@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleFactory", "SimpleFact
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodPattern", "FactoryMethodPattern\FactoryMethodPattern.csproj", "{AABF1587-6618-4C54-9869-C2F491300A28}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatorPattern", "MediatorPattern\MediatorPattern.csproj", "{A66C1F1A-F213-4DC7-A8BE-301C3C21E62D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{AABF1587-6618-4C54-9869-C2F491300A28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AABF1587-6618-4C54-9869-C2F491300A28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AABF1587-6618-4C54-9869-C2F491300A28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A66C1F1A-F213-4DC7-A8BE-301C3C21E62D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A66C1F1A-F213-4DC7-A8BE-301C3C21E62D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A66C1F1A-F213-4DC7-A8BE-301C3C21E62D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A66C1F1A-F213-4DC7-A8BE-301C3C21E62D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
